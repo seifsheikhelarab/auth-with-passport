@@ -38,8 +38,8 @@ This is a Node.js authentication project using Passport.js with Google and Twitt
    GOOGLE_CLIENT_SECRET=your_google_client_secret
    GOOGLE_CALLBACK_URL=http://localhost:3000/auth/google/callback
 
-   TWITTER_CONSUMER_KEY=your_twitter_consumer_key
-   TWITTER_CONSUMER_SECRET=your_twitter_consumer_secret
+   TWITTER_API_KEY=your_twitter_consumer_key
+   TWITTER_API_SECRET=your_twitter_consumer_secret
    TWITTER_CALLBACK_URL=http://localhost:3000/auth/twitter/callback
 
    SESSION_SECRET=your_session_secret
