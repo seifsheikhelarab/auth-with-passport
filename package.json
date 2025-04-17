@@ -1,0 +1,32 @@
+{
+  "name": "auth-with-passport",
+  "version": "1.0.0",
+  "description": "An implementation of OAuth 2.0 with Google and Twitter",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "github.com/seifsheikhelarab/auth-with-passport"
+  },
+  "license": "MIT",
+  "author": "seifsheikhelarab",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-twitter": "^1.0.4",
+    "rate-limit-mongo": "^2.3.2"
+  }
+}

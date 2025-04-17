@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 shadow text-center" style="width: 100%; max-width: 400px;">
+      <h3 class="mb-3"><%= displayName %></h3>
+      <p class="text-muted mb-4"><%= email %></p>
+
+      <div class="mb-3">
+        <label class="form-label">Display Name</label>
+        <input type="text" class="form-control text-center" value="<%= displayName %>" readonly>
+
+      <div class="d-grid">
+        <a href="/logout" class="btn btn-outline-secondary"><i class="bi bi-box-arrow-left me-2"></i>Logout</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
